@@ -17,8 +17,8 @@ namespace AwesomeSauce
         public AwesomeHttpContext(IFeatureCollection features, string path)
         {
             this.Features = features;
-            this.Request = new FileHttpRequest(this, path);
-            this.Response = new FileHttpResponse(this, path);
+            this.Request = new FileHttpRequest(this, path); 
+            this.Response = new FileHttpResponse(this, path); 
         }
 
         public override IFeatureCollection Features { get; }

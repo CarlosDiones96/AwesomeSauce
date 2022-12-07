@@ -20,23 +20,19 @@ namespace AwesomeSauce
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
         {
-            app.Map("/foo",
-                config =>
+            app.MapWhen(c => c.Request.Path == "/foo/bar", config =>
+            {
+                config.Run(async (context) =>
                 {
-                    config.Use(async (context, next) =>
-                    {
-                        await context.Response.WriteAsync("Welcome to /foo");
-                    });
+                    context.Response.StatusCode = 200;
+                    await context.Response.WriteAsync("Hello world!");
                 });
-
-            app.MapWhen(
-                context =>
-                    context.Request.Method == "POST" && context.Request.Path == "/bar",
-                config =>
-                    config.Use(async (context, next)  =>
-                        await context.Response.WriteAsync("Welcome to POST /bar")
-                        )
-                );
+            })
+            .Run(async (context) =>
+            {
+                context.Response.StatusCode = 404;
+                await context.Response.WriteAsync("Not Found");
+            });
         }
     }
 }

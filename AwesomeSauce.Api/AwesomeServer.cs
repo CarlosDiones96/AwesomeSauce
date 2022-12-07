@@ -12,7 +12,7 @@ namespace AwesomeSauce
 {
     public class AwesomeServer : IServer
     {
-        public AwesomeServer(IOptions<AwesomeServerOptions> options) //attention here
+        public AwesomeServer(IOptions<AwesomeServerOptions> options)
         {
             Features.Set<IHttpRequestFeature>(new HttpRequestFeature());
             Features.Set<IHttpResponseFeature>(new HttpResponseFeature());
