@@ -5,11 +5,13 @@ VisualStudioVersion = 15.0.28307.1831
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AwesomeSauce", "AwesomeSauce.Api\AwesomeSauce.csproj", "{7E436642-863D-4AE8-B192-82BD49715A37}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Middleware1", "Middleware1\Middleware1.csproj", "{03F90AE3-97CC-4CC0-8F36-0D4143F032C7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Middleware1", "Middleware1\Middleware1.csproj", "{03F90AE3-97CC-4CC0-8F36-0D4143F032C7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Routing", "Routing\Routing.csproj", "{D785C281-20C6-44F0-B7FB-1B8FDB94F1AC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Routing", "Routing\Routing.csproj", "{D785C281-20C6-44F0-B7FB-1B8FDB94F1AC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HostedService1", "HostedService1\HostedService1.csproj", "{F02A6E15-DD90-4BB0-95AE-4221F9B3D68A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HostedService1", "HostedService1\HostedService1.csproj", "{F02A6E15-DD90-4BB0-95AE-4221F9B3D68A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AttributeRoutingExample", "MvcExample1\AttributeRoutingExample.csproj", "{7CA1F298-B81A-4B9F-B042-33B37389B69E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{F02A6E15-DD90-4BB0-95AE-4221F9B3D68A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F02A6E15-DD90-4BB0-95AE-4221F9B3D68A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F02A6E15-DD90-4BB0-95AE-4221F9B3D68A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CA1F298-B81A-4B9F-B042-33B37389B69E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CA1F298-B81A-4B9F-B042-33B37389B69E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CA1F298-B81A-4B9F-B042-33B37389B69E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CA1F298-B81A-4B9F-B042-33B37389B69E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
