@@ -15,7 +15,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AttributeRoutingExample", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AwesomeConventions", "AwesomeConventions\AwesomeConventions.csproj", "{2FC0FAD5-E2D0-451B-8DD0-01A1E5A32E74}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AwesomeApi", "AwesomeApi\AwesomeApi.csproj", "{E56EADCE-460E-497E-936A-BC0BCD43E64B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AwesomeApi", "AwesomeApi\AwesomeApi.csproj", "{E56EADCE-460E-497E-936A-BC0BCD43E64B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomValidation", "CustomValidation\CustomValidation.csproj", "{4ED13310-A3F3-4643-BFA1-A300CE82377E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{E56EADCE-460E-497E-936A-BC0BCD43E64B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E56EADCE-460E-497E-936A-BC0BCD43E64B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E56EADCE-460E-497E-936A-BC0BCD43E64B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4ED13310-A3F3-4643-BFA1-A300CE82377E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4ED13310-A3F3-4643-BFA1-A300CE82377E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4ED13310-A3F3-4643-BFA1-A300CE82377E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4ED13310-A3F3-4643-BFA1-A300CE82377E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
