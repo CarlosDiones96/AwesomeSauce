@@ -25,7 +25,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CustomFormatter", "CustomFo
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BasicConfig", "BasicConfig\BasicConfig.csproj", "{25799A2A-260E-46CC-83D2-9C79B0295693}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AwesomeConfiguration", "AwesomeConfiguration\AwesomeConfiguration.csproj", "{FCD6141A-A56E-4E11-B5F9-D8504481310D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AwesomeConfiguration", "AwesomeConfiguration\AwesomeConfiguration.csproj", "{FCD6141A-A56E-4E11-B5F9-D8504481310D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StronglyTypedConfiguration", "StronglyTypedConfiguration\StronglyTypedConfiguration.csproj", "{F61F65B0-B6D3-419B-80EC-8D23B789DB71}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +83,10 @@ Global
 		{FCD6141A-A56E-4E11-B5F9-D8504481310D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FCD6141A-A56E-4E11-B5F9-D8504481310D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FCD6141A-A56E-4E11-B5F9-D8504481310D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F61F65B0-B6D3-419B-80EC-8D23B789DB71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F61F65B0-B6D3-419B-80EC-8D23B789DB71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F61F65B0-B6D3-419B-80EC-8D23B789DB71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F61F65B0-B6D3-419B-80EC-8D23B789DB71}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,7 @@
+{
+  "foo": "Value of foo",
+  "bar": "Value of bar",
+  "baz": {
+    "foo":  "Hello world"
+  }
+}
