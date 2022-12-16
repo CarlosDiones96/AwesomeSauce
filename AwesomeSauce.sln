@@ -41,6 +41,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoggerGrouping", "LoggerGro
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoggerFiltering", "LoggerFiltering\LoggerFiltering.csproj", "{3BBCDB76-8DF7-4B93-B028-0514C5EC06B6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoggerConfiguration", "LoggerConfiguration\LoggerConfiguration.csproj", "{CCCB2984-CA49-43C4-865E-961A4E721EA1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -123,6 +125,10 @@ Global
 		{3BBCDB76-8DF7-4B93-B028-0514C5EC06B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3BBCDB76-8DF7-4B93-B028-0514C5EC06B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3BBCDB76-8DF7-4B93-B028-0514C5EC06B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCCB2984-CA49-43C4-865E-961A4E721EA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCCB2984-CA49-43C4-865E-961A4E721EA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCCB2984-CA49-43C4-865E-961A4E721EA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCCB2984-CA49-43C4-865E-961A4E721EA1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
