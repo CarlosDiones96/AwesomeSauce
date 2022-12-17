@@ -37,13 +37,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BasicLogging2", "BasicLoggi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BasicLogging3", "BasicLogging3\BasicLogging3.csproj", "{AF3B418A-DD32-4535-AEC3-FEC7E1C46B65}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoggerGrouping", "LoggerGrouping\LoggerGrouping.csproj", "{143D16F8-1A4E-4358-93F6-D3E51C70FF2F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoggerGrouping", "LoggerGrouping\LoggerGrouping.csproj", "{143D16F8-1A4E-4358-93F6-D3E51C70FF2F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoggerFiltering", "LoggerFiltering\LoggerFiltering.csproj", "{3BBCDB76-8DF7-4B93-B028-0514C5EC06B6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoggerFiltering", "LoggerFiltering\LoggerFiltering.csproj", "{3BBCDB76-8DF7-4B93-B028-0514C5EC06B6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoggerConfiguration", "LoggerConfiguration\LoggerConfiguration.csproj", "{CCCB2984-CA49-43C4-865E-961A4E721EA1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoggerConfiguration", "LoggerConfiguration\LoggerConfiguration.csproj", "{CCCB2984-CA49-43C4-865E-961A4E721EA1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exceptions", "Exceptions\Exceptions.csproj", "{FBE46F87-7088-482E-BFFE-190246B60004}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exceptions", "Exceptions\Exceptions.csproj", "{FBE46F87-7088-482E-BFFE-190246B60004}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JWTExample", "JWTExample\JWTExample.csproj", "{5FE4859B-5966-491E-87CA-71E94550B049}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -135,6 +137,10 @@ Global
 		{FBE46F87-7088-482E-BFFE-190246B60004}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FBE46F87-7088-482E-BFFE-190246B60004}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FBE46F87-7088-482E-BFFE-190246B60004}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FE4859B-5966-491E-87CA-71E94550B049}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FE4859B-5966-491E-87CA-71E94550B049}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FE4859B-5966-491E-87CA-71E94550B049}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FE4859B-5966-491E-87CA-71E94550B049}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
